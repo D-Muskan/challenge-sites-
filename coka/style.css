@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #121212;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-prt2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-prt2 h2{
+    color: #bb0000;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+
+}
+.nav-prt2 .line{
+    width: 150px;
+   background-color: #b30000;
+    height: 2px;
+    
+}
+.nav h1{
+    color: rgb(255, 253, 248);
+}
