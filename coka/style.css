@@ -18,10 +18,12 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 40px;
+    
 }
 .nav-prt2{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 .nav-prt2 h2{
@@ -35,11 +37,17 @@ html, body {
 
 }
 .nav-prt2 .line{
-    width: 150px;
+    width: 100px;
    background-color: #b30000;
     height: 2px;
     
 }
 .nav h1{
     color: rgb(255, 253, 248);
+}
+.nav img{
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+
 }
