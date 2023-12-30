@@ -6,6 +6,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-family: sans-serif;
 }
 .main{
     height: 100%;
@@ -49,5 +50,79 @@ html, body {
     width:150px;
     height: 150px;
     object-fit: cover;
+
+}
+.content{
+    height: calc(100% - 100px);
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+    width: 35%;
+    height: 100%;
+    padding: 150px 59px;
+    color: azure;
+  
+}
+.left h1{
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.left h1 span{
+    color: red;
+    font-weight: 200;
+}
+.left p{
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.left button{
+background-color: #b30000;
+padding: 15px 40px;
+border-radius: 50px;
+color: white;
+border: none;
+display: flex;
+align-items: center;
+font-size: 18px;
+font-weight: 600;
+}
+.left button i{
+    margin-right: 10px;
+}
+.left-sub{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.left-sub .heart i{
+font-size: 28px;
+color: red;
+}
+
+.right{
+    width: 35%;
+    height: 100%;
+    /* background-color: burlywood; */
+}
+.center{
+    width: 25%;
+    height: 100%;
+    background-color: forestgreen;
+    padding-top: 30px;
+}
+.center-bg{
+    background-color: #477ac6;
+    height: 90%;
+    width: 100%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
 
 }
