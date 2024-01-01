@@ -55,7 +55,7 @@ html, body {
 .content{
     height: calc(100% - 100px);
     width: 100%;
-    /* background-color: #fff; */
+
     display: flex;
     justify-content: space-between;
 
@@ -110,7 +110,7 @@ color: red;
 .right{
     width: 35%;
     height: 100%;
-    /* background-color: burlywood; */
+ 
 }
 .center{
     width: 25%;
@@ -126,3 +126,4 @@ color: red;
     border-top-left-radius: 1000px;
 
 }
+/* text */
