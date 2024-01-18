@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+   height: 100%;
+    width: 100%;  
+    background-image: url(assest/romantic_15.jpg);
+    background-size: cover;
+}
+.nav{
+
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.nav-prt1 > h1{
+font-size: 40px;
+font-family: 'Fauna One', serif;
+/* font-family: 'Karma', serif; */
+/* font-family: 'Kavivanar', cursive;  */
+}
+.nav-prt2{
+    display: flex;
+    gap: 25px;
+}
+.nav-prt2 >a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    /* font-family: 'Fauna One', serif; */
+font-family: 'Karma', serif;
+/* font-family: 'Kavivanar', cursive;  */
+}
+.nav-prt3 > .links{
+    display: flex;
+    gap: 15px;
+
+}
+.links>i{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sec1{
+
+   height: calc(100% - 100px);
+   width: 100%;
+   position: relative;
+   display: flex;
+    justify-content: space-between;
+    
+}
+.sec1-l{
+   width: 50%; 
+}
+.sec1-l>img {
+    position: absolute;
+    width: 30%;
+    top: -85px;
+    left: 111px;
+    
+}
+.sec1-r{
+    width: 50%; 
+    position: relative;
+
+}
+/* 
+font-family: 'Fauna One', serif;
+font-family: 'Karma', serif;
+font-family: 'Kavivanar', cursive; */
